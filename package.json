@@ -1,0 +1,17 @@
+{
+  "name": "local-func",
+  "version": "1.0.0",
+  "description": "local-function-testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "npx functions-framework --target=helloWorld [--signature-type=http]"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.0",
+    "@solana/web3.js": "^1.37.1"
+  }
+}
